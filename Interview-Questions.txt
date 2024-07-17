@@ -1,0 +1,219 @@
+1) Remove duplicate array
+2) Get only duplicate value from Arry
+3) remove the duplicate object
+4)What are the design patterns in JavaScript ?
+What is event loop in JavaScript ?
+How to deep clone in JavaScript ?
+How to flatten an array in JavaScript ?
+What is debounce in JavaScript ?
+Write a code to flatten the contents of an object ?
+How to create virtual dom in JavaScript ?
+How do you check if an element exists in an array?
+What is the difference between .map() and .forEach()?
+What is the difference between .filter() and .find()?
+Q12. What is prototypal inheritance in JavaScript?
+Answer: Prototypal inheritance is a way of creating new objects based on an existing object. The new object inherits the properties and methods of the existing object.
+
+what is hoc in react? and use case?
+
+What is React memo?
+What is Lazy Loading?
+what is code splitting in react?
+Qus: What is Error Boundaries in react?
+Answer: Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. 
+
+Qus: Fibonach series
+Qus: How to reverse string without inbuilt method?
+
+Qus: What are the promises and why we use?
+Qus: difference between synchronous and asynchronous in javascript?
+Ans: Synchronous code moves slowly and only does one task at a time. Asynchronous code executes numerous tasks 
+     simultaneously and finishes them quickly.
+     Because sync is single-threaded, only one program will be executed at a time, leaving all other tasks idle while the first one is being finished
+	 
+Qus: Routing in reactjs?
+Qus: What is a Temporal dead zone?
+Qus: difference between cookies and local storage
+Qus: async & await in javascript
+Qus: What is code splitting in reactJs?
+Ans: Code splitting is a powerful technique to optimize the performance of React applications.
+Qus: what is interceptor in reactjs?
+Qus: What is middleware.
+Qus: In which case we use Higher order component?
+
+
+Tell me something about your self, your carrer background, your skill.
+Show me your portfolio
+
+What is responsive website.
+
+=======================HTML 5===================
+What are the different kinds of Doctypes available in html?
+HTML5 New features.
+Difference between flex and grid?
+Why we use the Label in HTML
+What is the viewport in html
+What is the Data attribute in HTML
+What is the IE compatible mode in HTML
+difference between adptive and responsive webdesign.
+What is Semantic Elements and why is it importanat?
+What are tags and attributes in HTML?
+What are void elements in HTML?
+how many ways can we specify the CSS styles for the HTML element?
+What are some of the advantages of HTML5 over its previous versions?
+How can we include audio or video in a webpage?
+What is the purpose of HTML (HTML HyperText Markup Language is used to create Web pages and tells the browser how to display them.)
+Explain the difference between HTML and HTML5
+What is the new features in HTML5
+Describe the block and inline element
+What is the purpose of alt and title.
+
+
+
+====================CSS==============
+
+What is CSS?
+Why do we use CSS?
+What are the advantages of CSS?
+What is the fullform of css.
+Which type of CSS holds the highest priority?
+What are CSS Selectors?
+What does the ‘a’ in rgba mean?
+Ans: RGBA contains A (Alpha)
+What is CSS Box Model?
+What is the difference between CSS border and outline?
+How can we format text in CSS?
+what is pseudo classes in css
+What is the CSS selector
+What is object fit in css.
+What is the Viewport height and Viewport width.
+What is the difference between psedu class and sudo element.
+What is the CSS Combinator
+How many ways to div horizontally and vertically align center.
+What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+
+what is media query and how to use it
+How can you use css Transition for create smooth animation.
+What is keyframe in css. And have you use ever.
+What is the use of !important in css.
+What is Specificity?
+DIfference between rem and em.
+Answer: em is a CSS unit relative to the font size of the parent element, while rem is a CSS unit relative to the font size of an html element.
+
+difference between Cellpadding and cellspacing
+ What are breakpoints in responsive design?
+What is CSS Functions; [calc(),max(),min()]
+
+
+
+=========================SCSS=========================
+Explain what is Sass?
+What are the SCSS basic features?
+Explain the @include, @mixin, @function functions and how they are used. What is %placeholder?
+What is the features of Sass?
+how to define a variable in Sass?
+what is the difference between Sass and SCSS?
+Selector Nesting in Sass is used for?
+Advantage and disadvante of SCSS.
+
+
+
+=====================Bootstrap====================
+DIfference between bs4 and bs5
+how many grid in BS5
+Is BS5 mobile first or desktop first
+What are the types of layout available in Bootstrap? (Fluid Layout, Fixed layout)
+
+
+
+=====================Web Accebility=============
+Web Content Accessibility Guidelines (WCAG) 2.1
+
+==================Javascript =====================
+console.log(2+"2") // 22
+console.log(2-"2") // 0
+console.log("2"/"2") // 1
+console.log(0.1+0.2) // 0.30000000000000004
+
+What is hoisting?
+What is closure?
+What we need to do to avoid Hoisting In Javscript?
+What is scope of variable in Js
+What is this in javascript
+What is the difference between Let, Var and const
+What is the difference between localstorege, session storage and Cookies
+How many way to clone an object.
+Difference between shallow copy and deepcopy.
+Differnce betwwn arrow function and normal function
+what is callback
+What is promises. And why we need to implemnt promisess in our code.
+How many way to create and object in Js
+What is datatype.
+What is event delegation?
+Event bubling and event capturing and how to stop both
+What is curring
+ES6 features Like: (Let, const, spred oprator, rest operator, Template string, desturing)
+Differnce between map and foreach function
+Differnce betwwen find and filter
+How many way to declare the function in JS
+
+Differnce betweenn slice and splice method.
+Throttle: throttle we use the fastcalicking on any button >> After throttle we can stop
+
+
+const a = [1,2,5,6,8]   Output should be: [2,3,6,7,9]
+
+const a = [1,2,'3', "John","Richard","James"]
+
+How to improve page speed optimization.
+
+const a = [1,2,3,4,5] -- Square of Array
+
+const arr = [1, 2, 3, 4, 5]; -- swaps the first two elements // [3, 4, 5, 1, 2]
+
+console.log('Print Me');
+setTimeout(() => {
+console.log('Hi there...');
+}, 0)
+console.log('Print Me at last');
+
+=================== Javascript and react js Interview questions==============
+
+1) What is curring function and write sum function with curring?
+
+const a = (x)=>{
+  return b = (y)=>{
+    return c = (z)=>{
+      return x+y+z
+    }
+     }
+}
+console.log(a(2)(3)(4)) // output 9
+..............................................................................
+2) Call, apply, and bind method with example?
+
+Bind Method:- The bind method created a new function.
+
+let HiFun = PrintName.sayHi.bind(nameObj); 
+HiFun();
+
+call Method:- The call method takes a argument as an string. 
+
+call(objectInstance, arg1, argN)
+
+Apply method:- The apply method takes argumet as an Arr.
+
+PrintName.sayHi.apply(nameObj, [42], [22]);
+..............................................................................
+
+3) Explain useEffect, useMemo, useCallback hooks.
+
+useEffect: is used for handling side effects and executing code after rendering or when certain dependencies change.
+
+useMemo: is used to memoize the result of a function or expression to prevent unnecessary recalculations.
+
+useCallback: is used to memoize functions, especially useful for optimizing child components that depend on callback functions.
+
+All three hooks take an array of dependencies. When these dependencies change, useEffect runs its effect function, useMemo recomputes the value, and useCallback recreates the memoized function.
+
+
