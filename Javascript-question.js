@@ -20,12 +20,12 @@ const unique = [...new Map(members.map((m)=> [m.name, m])).values()];
 
 console.log(unique);
 ........................................................
-const books = [
-    { title: "C++", author: "Bjarne" },
-    { title: "Java", author: "James" },
-    { title: "Python", author: "Guido" },
-    { title: "Java", author: "James" },
-];
+	const books = [
+		{ title: "C++", author: "Bjarne" },
+		{ title: "Java", author: "James" },
+		{ title: "Python", author: "Guido" },
+		{ title: "Java", author: "James" },
+	];
  
 const unique = books.filter((data, index)=>{
 	return index === books.findIndex((x) => {
@@ -305,3 +305,27 @@ var a = '10';
 
 1) parseInt(a) // 10
 2) + '10' // 10
+============================== Missing value from array =================
+const arr = [1, 2, 3, 4, 7, 8, 9];
+const missingVal = [];
+const minVal = Math.min(...arr)
+const maxVal = Math.max(...arr)
+for (let i=minVal; i<maxVal; i++){
+  if(arr.indexOf(i)<0){
+    missingVal.push(i)
+  }
+}
+console.log(missingVal) // [5,6]
+
+========================how to find vowels from string in javascript ===========================
+let string = prompt('please enter')
+const vovels = ['a','e','i','o','u'];
+const getVovels = (arg)=>{
+  var count =0;
+  for(let letter of arg.toLowerCase()){
+    if(vovels.includes(letter)){
+      count++
+    }
+  }
+}
+console.log(getVovels(string))
