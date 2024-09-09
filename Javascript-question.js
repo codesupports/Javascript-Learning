@@ -350,4 +350,25 @@ const randomNumber = (min, max)=>{
 	return Math.floor(Math.random()* (max-min)+1)
 }
 console.log(randomNumber(1,6)
+====================== Calculate the factorial of any number ===================
+let fact =1;
+for(let i=2; i<=5; i++){
+  fact *= i
+}
+console.log(fact) //output 120
+
+===================== write a function to check if a given number is Prime ==============
+function isPrime(num){
+  if(num <=2) {
+    return `${num} is not a Prime`
+  } 
+  for(let i =2; i< num; i++){
+    if(num % i===0) {
+      return `${num} is not a Prime number`
+    }
+  }
+  return `${num} is a Prime number`
+}
+console.log(isPrime(13)) // output: 13 is a Prime number
+
 	    
