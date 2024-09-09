@@ -329,3 +329,25 @@ const getVovels = (arg)=>{
   }
 }
 console.log(getVovels(string))
+======================= Print Star Pramid ==============
+for(let i = 1; i<=5; i++){
+  for(let j=5; j>i; j--){
+    document.write('&nbsp')
+  }
+  for(let k=1; k<=(i*2-1); k++){
+    document.write('*');
+  }
+  document.write('<br/>')
+}
+//output
+    *
+   ***
+  *****
+ *******
+*********
+=======================Javascript Random number generator between 2 number=============
+const randomNumber = (min, max)=>{
+	return Math.floor(Math.random()* (max-min)+1)
+}
+console.log(randomNumber(1,6)
+	    
