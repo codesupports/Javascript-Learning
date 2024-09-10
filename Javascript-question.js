@@ -378,4 +378,17 @@ for(let i=0; i <arr.length; i++){
   sum = sum + arr[i]
 }
 console.log(sum) // 15
+
+========================= Random Number generartor (Like OTP )=================
+function randomNumber (num){
+const charactor = "0123456789";
+let result ="";
+for(let i=0; i < num; i++){
+  const randomVal = Math.floor(Math.random() * charactor.length)
+  result += charactor.charAt(randomVal)
+}
+return result
+}
+console.log(randomNumber(4)) // randon number generates 1182 or 2254 or 3256
+	
 	    
