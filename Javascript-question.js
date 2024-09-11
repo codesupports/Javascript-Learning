@@ -327,6 +327,7 @@ const getVovels = (arg)=>{
       count++
     }
   }
+return count
 }
 console.log(getVovels(string))
 ======================= Print Star Pramid ==============
