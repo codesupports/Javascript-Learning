@@ -8,3 +8,6 @@ React PureComponent:
   preventing unnecessary re-renders
   Avoids Unnecessary Re-renders
   In functional components, you can use React.memo, which serves a similar purpose to PureComponent for optimizing performance by memoizing the component.
+Debouncing: 
+  Stop unwanted function call stop (Like in searchbar, resize window, scrolling)
+  Improve the application performance
