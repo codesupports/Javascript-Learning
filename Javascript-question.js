@@ -308,14 +308,20 @@ var a = '10';
 ============================== Missing value from array =================
 const arr = [1, 2, 3, 4, 7, 8, 9];
 const missingVal = [];
+
 const minVal = Math.min(...arr)
 const maxVal = Math.max(...arr)
+
 for (let i=minVal; i<maxVal; i++){
-  if(arr.indexOf(i)<0){
+ if(arr.indexOf(i) === -1){
     missingVal.push(i)
   }
 }
 console.log(missingVal) // [5,6]
+
+	
+
+
 
 ========================how to find vowels from string in javascript ===========================
 let string = prompt('please enter')
