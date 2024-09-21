@@ -398,4 +398,9 @@ return result
 }
 console.log(randomNumber(4)) // randon number generates 1182 or 2254 or 3256
 	
-	    
+======================= Rotate array ====================================
+const arr = [1,2,4,6,7,8,12];
+const b = arr.map((item, i)=>{
+  return arr[arr.length-i-1]
+})
+console.log(b) // [12, 8, 7, 6, 4, 2, 1]
