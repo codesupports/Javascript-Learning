@@ -404,3 +404,23 @@ const b = arr.map((item, i)=>{
   return arr[arr.length-i-1]
 })
 console.log(b) // [12, 8, 7, 6, 4, 2, 1]
+
+====================== 2 array merge and sort ==========================
+et a=[1,2,3,5,9]
+let b=[4,6,7,8]
+
+const c = [...a,...b].sort()
+console.log(c) // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+======================== Is array Anagrams or not =======================
+function isAnagrams(str1, str2){
+  let sorted1 = str1.split('').sort().join('').toLowerCase();
+  let sorted2 = str2.split('').sort().join('').toLowerCase();
+  return (sorted1 === sorted2)
+}
+
+console.log(isAnagrams('raj', 'raj')) // true
+console.log(isAnagrams('raj', 'raaj')) // false
+
+
+
