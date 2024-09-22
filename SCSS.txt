@@ -1,0 +1,103 @@
+1) Variable in SCSS
+------------------------------------------------------------------------------------------------------------
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+}
+
+#container {
+  width: $myWidth;
+}
+
+2) Nesting in SCSS
+------------------------------------------------------------------------------------------------------------
+.nav {
+  background: #333;
+  color: white;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.button {
+  padding: 10px;
+
+  &.active {
+    background-color: green;
+  }
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+3) Sass @import and Partials (import other css file in other)
+------------------------------------------------------------------------------------------------------------
+@import "reset";  // thease are the files
+
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: red;
+}  
+
+4) Sass @mixin and @include
+------------------------------------------------------------------------------------------------------------
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.myBox {
+  @include transform(rotate(20deg));
+}
+
+5) Sass @extend Directive
+------------------------------------------------------------------------------------------------------------
+.button-basic  {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report  {
+  @extend .button-basic;  // extend here
+  background-color: red;
+}
+
+.button-submit  {
+  @extend .button-basic;  // extend here
+  background-color: green;
+  color: white;
+}
+
+
