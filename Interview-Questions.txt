@@ -73,8 +73,10 @@ Explain the difference between HTML and HTML5
 What is the new features in HTML5
 Describe the block and inline element
 What is the purpose of alt and title.
+What is <meta charset="UTF-8"> in html?
+Ans: Unicode transformation Formet 8 BIT. It is used for charactor encoding. This is the default charset of HTML5. 
 
-
+The full form of HTTPS is Hypertext Transfer Protocol Secure.
 
 ====================CSS==============
 
@@ -109,7 +111,19 @@ Answer: em is a CSS unit relative to the font size of the parent element, while 
 difference between Cellpadding and cellspacing
  What are breakpoints in responsive design?
 What is CSS Functions; [calc(),max(),min()]
-
+How to write print media in css?
+How to write screen media in css?
+How to make SVG sprite image?
+What is the siblings selector in css?
+What is css media type? Check below
+/*
+Common Media Types:
+	all: Applies to all media types. This is the default media type.
+	screen: Targets devices with screens, such as computers, tablets, and smartphones.
+	print: Applies styles specifically for printed documents.
+	speech: Designed for screen readers or speech-based browsers.
+	tv: Targets television-type devices.
+*/
 
 
 =========================SCSS=========================
