@@ -251,24 +251,17 @@ console.log(randomGenerator()) // output e6efb
 
 ==========Sort array without using sort method ==============
 const arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
-for (var i = 0; i<arr.length; i++){
-  
-  let min = i;
-  for(var j=i+1; j<arr.length; j++){
-    
-    if(arr[j]< arr[min]){
-      min=j
+let temp =[];
+for(let i=0; i<arr.length; i++){
+  for(let j=i; j<arr.length; j++){
+    if(arr[i]>arr[j]){
+      temp = arr[i]
+      arr[i] = arr[j]
+      arr[j] = temp
     }
   }
-  if(min !==i){
-    var temp = arr[i];
-    arr[i] = arr[min];
-    arr[min] = temp
-  }
-  
 }
 console.log(arr)
-
 ================================ Square of Array===========
 const a = [1,2,3,4,5,6,1,2];
 let b = a.map((item)=>{
