@@ -415,5 +415,17 @@ function isAnagrams(str1, str2){
 console.log(isAnagrams('raj', 'raj')) // true
 console.log(isAnagrams('raj', 'raaj')) // false
 
+======================== Find only Uppercase charactor from strig ==============
+const str = 'Hello I am Raj' 
+let temp=[];
+const a = str.split('').filter((word)=> {
+  return word !== " "
+})
+for(let i=0; i<a.length; i++){
+  if(a[i] === a[i].toUpperCase()){
+    temp.push(a[i])
+  }
+}
+console.log(temp) // ["H", "I", "R"]
 
 
