@@ -199,12 +199,11 @@ console.log(b)// ['Ram', 'Raj', 'John']
 
 ---------------Second Way--------------------------------
 const arr = [1, 2, "3", "Ram", "Raj", "John"]
-const b = arr.filter(myFunc)
-function myFunc(arg) {
-  if (!isNaN(parseInt(arg))) {
+const b = arr.filter((arg)=>{
+  if(!isNaN(parseInt(arg))){
     return arg
   }
-}
+})
 console.log(b) // [1, 2, '3']
 
 =================== How to sort object ============
