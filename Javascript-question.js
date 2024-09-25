@@ -140,16 +140,14 @@ function reverse1(str){
   }
   return r;
 }
-
 console.log(reverse1("javascript"))
-
--------------------------
+..........................
+## Second Method
+..........................
 const arr = "rajkumar"
-
 let b = arr.split("").reduce((acc,cur)=>{
   return cur+acc
 })
-
 console.log(b) //ramukjar
 -----------------------------
 const a = 'Javacript';
@@ -158,6 +156,16 @@ for (let i = a.length - 1; i >= 0; i--) {
   rev += a[i]
 }
 console.log(rev)
+..........................
+## Third Method
+..........................
+const str = "javaScript";
+const b= str.split('')
+const c = b.map((x,i)=>{
+  return b[b.length-i-1]
+})
+console.log(c.join('')) //tpircSavaj
+
 ===============count duplicate array and output will be in object Key, value pair=============
 
 //count duplicate object
