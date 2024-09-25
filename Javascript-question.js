@@ -362,6 +362,22 @@ for(let i = 1; i<=5; i++){
   *****
  *******
 *********
+.........................
+## Second option
+.........................
+for (let i = 0; i <= 5; i++) {
+    let line = '';
+    //Add space
+    for (let j = 5; j > i; j--) {
+        line += ' '
+    }
+
+    // Add star
+    for (let k = 1; k <= (i * 2 - 1); k++) {
+        line += "*"
+    }
+    console.log(line)
+}
 =======================Javascript Random number generator between 2 number=============
 const randomNumber = (min, max)=>{
 	return Math.floor(Math.random()* (max-min)+1)
