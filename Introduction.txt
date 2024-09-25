@@ -1,0 +1,9 @@
+Hi there! I’m an experienced frontend developer with over 8+ years of 
+expertise in building high-performance, responsive web applications. My proficiency in HTML, CSS, and JavaScript,
+along with frameworks like React, enables me to create seamless user experiences that prioritize both functionality and aesthetics.
+
+I have a proven track record of collaborating with cross-functional teams to deliver innovative solutions, 
+and I’m passionate about optimizing performance and ensuring accessibility. My commitment to best practices and continuous learning keeps me at the forefront of industry trends and emerging technologies.
+
+When I’m not coding, I enjoy mentoring junior developers and contributing to open-source projects. 
+I’m excited about the opportunity to leverage my skills in a dynamic environment and help create impactful digital experiences.
