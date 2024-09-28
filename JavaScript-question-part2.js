@@ -70,5 +70,19 @@ for (let i = 0; i < splitNumber.length; i++) {
 
 }
 console.log(result.join(''))
+......................................................................................................................................................
+Qus 5: Write a JavaScript program that accepts a string as input and swaps the case of each character. For example if you input 'The Quick Brown Fox' the 
+       output should be 'tHE qUICK bROWN fOX'.
+
+const str = 'The Quick Brown Fox';
+const splitSrr = str.toUpperCase().split(' ');
+let output='';
+for(let i=0; i<splitSrr.length; i++){
+    output += splitSrr[i].charAt(0).toLowerCase() + splitSrr[i].slice(1)+ " "   
+}
+console.log(output) //tHE qUICK bROWN fOX 
+......................................................................................................................................................
 
 
+
+    
