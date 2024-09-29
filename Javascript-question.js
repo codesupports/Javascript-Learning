@@ -288,8 +288,6 @@ console.log(b) // output [1, 4, 9, 16, 25, 36, 1, 4]
 
 ---Add, Edit, Delete -----https://www.shecodes.io/athena/9359-how-to-read-and-delete-json-data-in-react
 
-
-
 const onChangePartNo = (e) => {
         let foo = e.target.value.split("-").join("");
         if (foo.length > 0) {
@@ -328,10 +326,6 @@ for (let i=minVal; i<maxVal; i++){
   }
 }
 console.log(missingVal) // [5,6]
-
-	
-
-
 
 ========================how to find vowels from string in javascript ===========================
 let string = prompt('please enter')
