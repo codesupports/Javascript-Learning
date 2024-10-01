@@ -454,5 +454,18 @@ for(let i=0; i<a.length; i++){
   }
 }
 console.log(temp) // ["H", "I", "R"]
+======================== Add hyephen after every 4th charactor (Like: creditcard 1234-5678-9012-1234 ==============
+const str = '123412341256125234'
+const array = str.split('')
+const resultArray = [];
+for (let i = 0; i < array.length; i++) {
+    resultArray.push(array[i])
+   if((i + 1) % 4 === 0){
+      resultArray.push('-')
+   }
+}
+if(resultArray[resultArray.length-1] === -1){
+  resultArray.pop();
+}
 
-
+console.log(resultArray.join('')); // 1234-1234-1256-1252-34
