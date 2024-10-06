@@ -8,7 +8,7 @@ let duplicate = a.filter((value, index)=>{
 })
 console.log(duplicate); // [1, 2, 3, 4, 5, 6]
 
-============ remove duplicate object ===========
+============ remove duplicate object ====================
 const members = [
   { id: 1, name: 'John' }, 
   { id: 2, name: 'Jane' },
@@ -87,7 +87,7 @@ const b = a.filter((x,i)=>{
 })
 console.log(b) // output [1,2]
 
-=============================Fibonachi Series ===============
+=============================Fibonachi Series ======================================
 let n1=0, n2=1, nextItem;
 
 for(let i = 0; i <= 7; i++){
