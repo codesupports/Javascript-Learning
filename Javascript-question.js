@@ -340,6 +340,17 @@ const getVovels = (arg)=>{
 return count
 }
 console.log(getVovels(string))
+	
+...................Second way......................
+const str = "Rajkumar";
+const vovels = ['a','e','i','o','u'];
+
+let spltstr = str.split('')
+const getV = spltstr.filter((x,index)=>{
+    return vovels.includes(x)
+})
+console.log(getV.length) // 3
+...................................................
 ======================= Print Star Pramid ==============
 for(let i = 1; i<=5; i++){
   for(let j=5; j>i; j--){
