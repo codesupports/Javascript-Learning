@@ -480,3 +480,19 @@ if(resultArray[resultArray.length-1] === -1){
 }
 
 console.log(resultArray.join('')); // 1234-1234-1256-1252-34
+
+======================= Find the first non repeated charactor in string Like(cbcbdde) ==================
+const str = 'cbcbdde';
+const charCount = {};
+
+for(let char of str){
+    charCount[char] = (charCount[char] || 0) +1
+}
+
+for (let char of str){
+    if(charCount[char] === 1){
+        console.log(char) // e
+    }
+}
+//output e
+	
