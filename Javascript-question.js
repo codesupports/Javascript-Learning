@@ -496,3 +496,18 @@ for (let char of str){
 }
 //output e
 	
+=================================== Reversing letters and words ==================
+const str = 'I evol uoy os !hcum'
+const wordSplit = str.split(' ')
+const revWord = wordSplit.map((x)=>{
+    return x.split('').reverse().join('')
+})
+
+console.log(revWord.join(' ')) // I love you so much!
+
+==========================sorting an array of string by length ==================
+const arr =["You", "arekgkjgkjkjkj", "beautiful", "looking"];
+const b = arr.sort((a,b)=>{
+    return a.length -b.length
+})
+console.log(b) // arekgkjgkjkjkj
