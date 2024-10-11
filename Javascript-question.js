@@ -350,7 +350,15 @@ const getV = spltstr.filter((x,index)=>{
     return vovels.includes(x)
 })
 console.log(getV.length) // 3
-...................................................
+......................Third Way .............................
+
+const str = 'Rajkumar MAHESHWARI';
+let vovels = 'aeiou'
+const b = str.toLowerCase().split('').filter((char)=>{
+    return vovels.includes(char);
+})
+console.log(b.length) // 7	
+	
 ======================= Print Star Pramid ==============
 for(let i = 1; i<=5; i++){
   for(let j=5; j>i; j--){
