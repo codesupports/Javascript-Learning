@@ -77,7 +77,7 @@ What is <meta charset="UTF-8"> in html?
 Ans: Unicode transformation Formet 8 BIT. It is used for charactor encoding. This is the default charset of HTML5. 
 
 The full form of HTTPS is Hypertext Transfer Protocol Secure.
-
+Difference between "event.target" and "event.current" in Javascript?
 ====================CSS==============
 
 What is CSS?
