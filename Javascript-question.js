@@ -519,3 +519,13 @@ const b = arr.sort((a,b)=>{
     return a.length -b.length
 })
 console.log(b) // arekgkjgkjkjkj
+	
+========================== wave array ================== =================
+const arr = [3, 5, 2, 1, 6, 4]
+const sortarr = arr.sort((a,b)=>{
+    return a-b
+})
+for(let i=0; i < arr.length-1; i+=2){
+    [arr[i], arr[i + 1]]  = [arr[i+1], arr[i]]
+}
+console.log(arr) // [2, 1, 4, 3, 6, 5]
