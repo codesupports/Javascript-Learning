@@ -7,3 +7,13 @@ and I’m passionate about optimizing performance and ensuring accessibility. My
 
 When I’m not coding, I enjoy mentoring junior developers and contributing to open-source projects. 
 I’m excited about the opportunity to leverage my skills in a dynamic environment and help create impactful digital experiences.
+
+
+Qus: Why you should hire me as a frontend developer?
+Ans: I have a strong experience in front-end technologies, including HTML, CSS, and JavaScript, as well as experience with modern frameworks like React js.
+    Sroeng understanding of responsive design, mobile-first approch, and accessibilty guidelines.
+    Familarty with UI/UX design principles
+    Excellent problem solving skills
+    Passion for Learning new technologies
+    Attention to detail
+    Collaborative Mindset
