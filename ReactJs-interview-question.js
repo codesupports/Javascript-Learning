@@ -18,6 +18,17 @@ How would you fetch data in a React app?
 How do you handle errors in React components?
 What is the difference between React and other frameworks like Angular or Vue?
 How would you test a React application?
+Pure component in reactjs
+Why should component name start with capital letter?
+What is useCallback and useMemo?
+What is useReducer?
+What is children props in reactjs?
+What is code spitting?
+What is lazy load?
+What is errorboundries?
+What is middleware in reactjs?
+In which case we use Higher order component?
+Explain the useEffect?
 
 ======= Routing Related Question=======================================================
   
