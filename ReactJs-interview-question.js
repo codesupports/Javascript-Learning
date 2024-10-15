@@ -30,6 +30,22 @@ What is middleware in reactjs?
 In which case we use Higher order component?
 Explain the useEffect?
 
+what is best practice and design pattern should be used in react project
+How to check error in api which is related in from backend or frontend?
+Difference between async & awit or Promise?
+What is modular css approch?
+What is style component?
+
+File orgnisation example:---------------
+  /src
+└── /components
+    ├── Button
+    │   ├── Button.jsx
+    │   └── Button.module.css
+    ├── Header
+    │   ├── Header.jsx
+    │   └── Header.module.css
+  
 ======= Routing Related Question=======================================================
   
 What is React Router?
