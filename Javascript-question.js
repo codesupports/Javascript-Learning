@@ -530,7 +530,17 @@ for(let i=0; i < arr.length-1; i+=2){
 }
 console.log(arr) // [2, 1, 4, 3, 6, 5]
 
-===================================
+=================================== Add 2 array value and ===========
 const a = [2,3,4,5,7,55]
 const b = [1,2,3,1]
-// output [3,5,7,5,7,6,55]
+// output [3,5,7,6,7,55]
+
+let output = [];
+for(let i=0; i<a.length; i++){
+    if(b[i]){
+        output.push(a[i] + b[i])
+    } else{
+        output.push(a[i])
+    }
+}
+console.log(output)// output [3,5,7,6,7,55]
