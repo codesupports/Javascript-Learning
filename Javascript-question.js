@@ -1,12 +1,23 @@
 ==============duplicate aray remove ===============
 const a = [1,2,3,4,5,6,1,2];
 
-const duplicate = [...new Set(a)]; // [1, 2, 3, 4, 5, 6]
+..............First Way..................
+const duplicate = [...new Set(a)]; // [1, 2, 3, 4, 5, 6] 
 
+..............Second Way..................
 let duplicate = a.filter((value, index)=>{
   return a.indexOf(value) === index; 
 })
 console.log(duplicate); // [1, 2, 3, 4, 5, 6]
+
+..............Third way..................
+let unique = []  // 
+for(let i=0; i<a.length; i++){
+    if(!unique.includes(a[i])){
+        unique.push(a[i])
+    }
+}
+console.log(unique) // [1, 2, 3, 4, 5, 6]
 
 ============ remove duplicate object ====================
 const members = [
