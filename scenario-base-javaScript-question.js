@@ -17,7 +17,7 @@ async function fetchUserData() {
     setLoading(false); // Hide loading indicator
   }
 }
-------------------
+------------------------------------------------
 
 2. Debouncing and Throttling
 Question: You are developing a search input that triggers API calls on every keystroke. How would you implement debouncing to optimize performance?
