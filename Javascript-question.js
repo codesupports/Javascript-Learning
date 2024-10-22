@@ -211,7 +211,7 @@ console.log(b)// ['Ram', 'Raj', 'John']
 ---------------Second Way--------------------------------
 const arr = [1, 2, "3", "Ram", "Raj", "John"]
 const b = arr.filter((arg)=>{
-  if(!isNaN(parseInt(arg))){
+  if(!parseInt(arg)){
     return arg
   }
 })
