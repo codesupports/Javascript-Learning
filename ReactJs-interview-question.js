@@ -35,6 +35,7 @@ How to check error in api which is related in from backend or frontend?
 Difference between async & awit or Promise?
 What is modular css approch?
 What is style component?
+  
 
 File orgnisation example:---------------
   /src
