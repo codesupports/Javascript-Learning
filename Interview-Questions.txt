@@ -164,7 +164,7 @@ What is datatype.
 What is event delegation?
 Event bubling and event capturing and how to stop both
 What is curring
-ES6 features Like: (Let, const, spred oprator, rest operator, Template string, desturing)
+ES6 features Like: (Let, const, spred oprator, rest operator, Template string, desturing, Arrow function)
 Differnce between map and foreach function
 Differnce betwwen find and filter
 How many way to declare the function in JS
