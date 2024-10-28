@@ -49,6 +49,7 @@ Show me your portfolio
 What is responsive website.
 What is the purpose fo async and defer in script tag in JS.
 What is progressive web app? (PWA)
+What is server worker?
 
 =======================HTML 5===================
 What are the different kinds of Doctypes available in html?
@@ -141,6 +142,7 @@ What are the types of layout available in Bootstrap? (Fluid Layout, Fixed layout
 
 =====================Web Accebility=============
 Web Content Accessibility Guidelines (WCAG) 2.1
+AA and AAA standerd in Web Accessibility?
 
 ==================Javascript =====================
 console.log(2+"2") // 22
