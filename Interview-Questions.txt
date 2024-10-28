@@ -47,6 +47,7 @@ async and await
 Tell me something about your self, your carrer background, your skill.
 Show me your portfolio
 What is responsive website.
+What is the purpose fo async and defer in script tag in JS.
 
 =======================HTML 5===================
 What are the different kinds of Doctypes available in html?
