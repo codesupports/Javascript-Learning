@@ -50,6 +50,7 @@ What is responsive website.
 What is the purpose fo async and defer in script tag in JS.
 What is progressive web app? (PWA)
 What is server worker?
+What is code smell?
 
 =======================HTML 5===================
 What are the different kinds of Doctypes available in html?
