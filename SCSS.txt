@@ -1,4 +1,4 @@
-1) Variable in SCSS
+1) Variable in SCSS  
 ------------------------------------------------------------------------------------------------------------
 $myFont: Helvetica, sans-serif;
 $myColor: red;
