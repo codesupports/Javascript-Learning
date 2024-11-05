@@ -3,7 +3,7 @@
 3) remove the duplicate object
 4)What are the design patterns in JavaScript ?
 What is event loop in JavaScript ?
-How to deep clone in JavaScript ?
+How to deep clone in JavaScript ? 
 How to flatten an array in JavaScript ?
 What is debounce in JavaScript ?
 Write a code to flatten the contents of an object ?
