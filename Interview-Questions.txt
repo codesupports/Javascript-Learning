@@ -52,6 +52,14 @@ What is progressive web app? (PWA)
 What is server worker?
 What is code smell?
 
+12) write a program that dynamically create a list of card using only plain Java Script (no Framework) each card should have a heading, description and some basic style for layout like background colour margin and pedding. Explain what impact using document.createDocumentfragment instant of document.creatElement for wrapping each card would have an performance or Dom manipulation.
+13) provide an example of using optional Channing in JavaScript(then ?. syntax) to safely access properties of a potential what happen when the first level of the object you are trying to access is null or undefined? How does a optional changing handle this case? also how can you handle potential error if the object you are trying to access the sent have the property at any level?
+14) explain how memorization works in JavaScript and provide a sample implementation of a memorization function. what is the underlying concept of casing in memorization and how does it optimise function performance by storing result. specially how does JavaScript handle shallow copying of cached variable in a memorization function and what are the indications of this?
+15) when designing a system that involves calling multiple APIs to render data on a section of a web page, how would you structure The code to handle these API calls?  what approach would you take to ensure that even if one or more API call the data from the successful once is still rendered? discuss strategies for handling partial failure and how to display available data while gracefully managing errors
+16) explain the difference between the bitwise & operator and the logical && operator in JavaScript. Provide example to show how each operator behave in different scenarios specially in Boolean logic and binary operations
+17) in the concept of memorization in Java Script, explain how shallow  copying works with the cashed variable. what happened when object is array are stored as part of the cache?  what potential issues can  arise from shallow copying especially when dealing with more Complex data structure?
+18 ) how would you design an application where API calls need to include common header and modify the structure of the response in a centralise way? this approach should ensured that you don't need to modify even individual API call. how can you achieve thisby  abstracting the common logic for header and response transformation?
+
 =======================HTML 5===================
 What are the different kinds of Doctypes available in html?
 HTML5 New features.
