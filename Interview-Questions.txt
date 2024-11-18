@@ -43,6 +43,8 @@ Qus: What is middleware.
 Qus: In which case we use Higher order component?
 How to call 2-3 api in javascript?
 async and await
+What is Array destructuring?
+Ans: Array destructuring is a feature in JavaScript (introduced in ES6) that allows you to unpack values from arrays 
 
 Tell me something about your self, your carrer background, your skill.
 Show me your portfolio
