@@ -35,8 +35,9 @@ How to check error in api which is related in from backend or frontend?
 Difference between async & awit or Promise?
 What is modular css approch?
 What is style component?
+How to stop rerender child component if any state change in parent component in react?
+Ans: with React.memo use in chails
   
-
 File orgnisation example:---------------
   /src
 └── /components
