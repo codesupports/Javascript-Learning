@@ -37,6 +37,9 @@ What is modular css approch?
 What is style component?
 How to stop rerender child component if any state change in parent component in react?
 Ans: with React.memo use in chails
+Client Side rendering (CSR): In Client-Side Rendering (CSR), React components are rendered in the user's browser (client-side) using JavaScript. 
+Server side rendering (SSR): In Server-Side Rendering (SSR), the server generates the HTML content for the page before sending it to the browser. 
+                            This means that React components are rendered on the server rather than the client.
   
 File orgnisation example:---------------
   /src
