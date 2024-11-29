@@ -510,18 +510,28 @@ console.log(resultArray.join('')); // 1234-1234-1256-1252-34
 ======================= Find the first non repeated charactor in string Like(cbcbdde) ==================
 const str = 'cbcbdde';
 const charCount = {};
-
 for(let char of str){
     charCount[char] = (charCount[char] || 0) +1
 }
-
 for (let char of str){
     if(charCount[char] === 1){
         console.log(char) // e
     }
 }
 //output e
-	
+------------# Second Way ----------------
+const a = 'sdfsdfsdfdsfaddsfk';
+const charcount = {};
+
+a.split('').forEach(x => {
+  charcount[x] = (charcount[x] || 0) + 1;
+});
+for (let i = 0; i < a.length; i++) {
+  if (charcount[a[i]] === 1) {
+    console.log(a[i]);
+  }
+}
+// output a,k
 =================================== Reversing letters and words ==================
 const str = 'I evol uoy os !hcum'
 const wordSplit = str.split(' ')
@@ -562,3 +572,27 @@ for(let i=0; i<a.length; i++){
     }
 }
 console.log(output)// output [3,5,7,6,7,55]
+================================= Convert a string to title case ==================
+const a = 'i love you' 
+const b = a.split(' ').map((x)=>{
+  return x.charAt(0).toUpperCase() + x.slice(1)
+})
+console.log(b.join(' '))// I Love You
+
+================================= Find the common value from 2 Array ==================
+const num1 = [1, 2, 2, 1]
+const num2 = [2, 2,4,1]
+
+const result = [];
+const count = {};
+
+for(let num of num1){
+  count[num] = (count[num] || 0) + 1
+}
+for(let num of num2){
+  if(count[num] > 0){
+    result.push(num)
+    count[num]--
+  }
+}
+console.log(result) //[2, 2, 1]
