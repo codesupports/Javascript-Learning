@@ -239,9 +239,16 @@ for (let i = 0; i < word.length; i++) {
     longestWord = word[i]
   }
 }
+console.log(longestWord);//output : "Tendulkar"
 
-console.log(longestWord);
-//output : "Tendulkar"
+-------------#Second Way -----------------
+const a = 'My Name is Sachin Tendulkar' 
+const word = a.split(' ');
+
+const c = word.reduce((cur, acc)=>{
+  return (cur.length > acc.length ? cur: acc)
+})
+console.log(c) // Tendulkar
 
 ======================Write a function that checks if a given string is a palindrome.==========
 
