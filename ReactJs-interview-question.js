@@ -29,7 +29,8 @@ What is errorboundries?
 What is middleware in reactjs?
 In which case we use Higher order component?
 Explain the useEffect?
-
+How to pass data in sibling component without prop drilling
+  
 what is best practice and design pattern should be used in react project
 How to check error in api which is related in from backend or frontend?
 Difference between async & awit or Promise?
