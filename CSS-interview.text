@@ -1,0 +1,15 @@
+-----------------------Specificity Calculation:--------------------------
+The specificity is calculated based on a four-part system:
+
+Inline styles (styles written directly in the HTML element's style attribute).
+IDs (selectors that use an id).
+Classes, pseudo-classes, and attributes.
+Elements (or tags) and pseudo-elements.
+Each part contributes to the specificity score, which is expressed as a 4-part number: a, b, c, d.
+
+Specificity Scoring:
+Inline styles: 1, 0, 0, 0 (This always has the highest specificity).
+IDs: 0, 1, 0, 0 (One #id selector adds one to the second part).
+Classes, attributes, and pseudo-classes: 0, 0, 1, 0 (One .class, [attribute], or :pseudo-class adds one to the third part).
+Elements and pseudo-elements: 0, 0, 0, 1 (One div, p, :before, or :after adds one to the fourth part).
+
