@@ -217,6 +217,10 @@ Qus: How many way to declare the function in JS
 Qus: Differnce betweenn slice and splice method.
 Throttle: throttle we use the fastcalicking on any button >> After throttle we can stop
 Qus: How to improve page speed optimization.
+Qus: Static and dynamic import
+Qus: How to stop api call before get response in JS.
+Qus: What is the DOM api?
+Qus: 
 
 const a = [1,2,5,6,8]   Output should be: [2,3,6,7,9]
 const a = [1,2,'3', "John","Richard","James"]
