@@ -12,6 +12,11 @@ Qus: How do you check if an element exists in an array?
 Qus: What is the difference between .map() and .forEach()?
 Qus: What is the difference between .filter() and .find()?
 
+Qus: difference between async, await and promisess in JS?
+And: 	Promises: provide a powerful way to handle asynchronous operations, but can become difficult to read with complex chains.
+	async/await: makes working with Promises simpler and more readable by allowing you to write asynchronous code that looks like synchronous code.
+
+
 Qus:  What is prototypal inheritance in JavaScript?
 Answer: Prototypal inheritance is a way of creating new objects based on an existing object. The new object inherits the properties and methods of the existing object.
 
