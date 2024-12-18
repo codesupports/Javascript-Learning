@@ -596,3 +596,13 @@ for(let num of num2){
   }
 }
 console.log(result) //[2, 2, 1]
+-------------------------------------Infosys -----------------
+
+const arr = [1, 2, 3];
+
+const result = {
+  sum: arr.reduce((acc, num) => acc + num, 0),
+  prod: arr.reduce((acc, num) =>  acc + num, 0)
+};
+
+console.log(result); // {sum: 6, prod: 6}
