@@ -13,3 +13,4 @@ IDs: 0, 1, 0, 0 (One #id selector adds one to the second part).
 Classes, attributes, and pseudo-classes: 0, 0, 1, 0 (One .class, [attribute], or :pseudo-class adds one to the third part).
 Elements and pseudo-elements: 0, 0, 0, 1 (One div, p, :before, or :after adds one to the fourth part).
 
+Difference between  :nth-child and :nth-of-type.
