@@ -606,3 +606,37 @@ const result = {
 };
 
 console.log(result); // {sum: 6, prod: 6}
+---------------------------------------------------
+const salesData = [
+    { name: "Jane", amount: 500 },
+    { name: "John", amount: 200 },
+    { name: "John", amount: 300 },
+    { name: "John", amount: 400 },
+    { name: "Jane", amount: 100 },
+    { name: "Jake", amount: 100 },
+  ];
+
+// output with sort amount //  [
+    {"name": "Jake", "amount": 100},
+    {"name": "Jane","amount": 600},
+    {"name": "John","amount": 900}
+]
+const result = salesData.reduce((acc, { name, amount }) => {
+    // Find if the name already exists in the accumulator
+    const existing = acc.find((item) => {
+      return item.name === name;
+    });
+    if (existing) {
+      existing.amount += amount;
+    } else {
+      acc.push({ name, amount });
+    }
+    return acc;
+  }, []);
+
+  const sorting = result.sort((a, b) => {
+    return (a.amount > b.amount) - (a.amount < b.amount);
+  });
+
+  console.log(sorting); 
+
