@@ -189,6 +189,12 @@ const sample = uniqueCount.forEach((x) => {
 
 console.log('count array:-', count) // output{"a": 2, "b": 4, "c": 4 }
 
+----------Second way---------------
+const count= uniqueCount.reduce((acc,curr)=>{
+    acc[curr] = (acc[curr] || 0) + 1
+    return acc
+  },{})
+// output{"a": 2, "b": 4, "c": 4 }	
 =============== How to flat flatern aray =============
 const arr=[1,2,[5,3,4,[7,8,9,[10,11]]]];
 
