@@ -645,4 +645,26 @@ const result = salesData.reduce((acc, { name, amount }) => {
   });
 
   console.log(sorting); 
+---------Qus: --------------------------------------------------------------
+Qus: in my flat 2 lift only one button to operate and I am in 4th floor and one lift in 1st floor 
+	and second lift in 6th floor so what is the logic for which lift near to my floor 
+	can write the logic in Javascript?
+		
+function closeLiftToMe(currentFloor, lift1Floor, lift2Floor) {
+  const distance1 = Math.abs(currentFloor - lift1Floor);
+  const distance2 = Math.abs(currentFloor - lift2Floor);
+  if (distance1 < distance2) {
+    console.log('lift 1 is close to me');
+  } else if (distance2 < distance1) {
+    console.log('lift 2 is close to me');
+  } else {
+    console.log("both or equal")
+  }
+}
+console.log(closeLiftToMe(4, 1, 5)) // lift 2 is close to me
+
+----------- Find Max value from array--------------------
+const temp = [550, 200, 350, 650, 150]
+
+
 
