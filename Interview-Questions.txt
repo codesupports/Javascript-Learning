@@ -121,7 +121,8 @@ Ans: Unicode transformation Formet 8 BIT. It is used for charactor encoding. Thi
 The full form of HTTPS is Hypertext Transfer Protocol Secure.
 Difference between "event.target" and "event.current" in Javascript?
 ====================CSS==============
-
+How to make all card hight shold be same according to content with css. (can do with flex:1)
+How to make card show as row wise in mobile but in desktop as a card how can we do without mediaQuery. (with grid can do)
 What is CSS?
 Why do we use CSS?
 What are the advantages of CSS?
