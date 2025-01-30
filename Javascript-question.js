@@ -666,5 +666,23 @@ console.log(closeLiftToMe(4, 1, 5)) // lift 2 is close to me
 ----------- Find Max value from array--------------------
 const temp = [550, 200, 350, 650, 150]
 
+----------- Group the object by name property----------
+const objects = [
+    { name: 'apple', value: 10 },
+    { name: 'banana', value: 20 },
+    { name: 'apple', value: 30 },
+    { name: 'orange', value: 40 },
+    { name: 'banana', value: 50 }
+  ];
+
+  const groupby = objects.reduce((acc,obj)=>{
+    if(acc[obj.name] == null){
+      acc[obj.name] = []
+    }
+      acc[obj.name].push(obj)
+    
+    return acc
+  },{})
+  console.log(groupby) // 
 
 
